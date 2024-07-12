@@ -13,5 +13,5 @@ If the code you've built in the past doesn't meet your current needs, changing i
 - <a href="https://github.com/Robert1802/CSharp-SOLID/tree/master/5_D_Dependency_Inversion_Principle">D - Dependency Inversion Principle
 
 ### What is Low Coupling and High Cohesion?
-- *Coupling*: The degree of direct knowledge that one element has of another is called coupling.
-- *Cohesion*: Within a module, this measures how closely connected components are. It's a metric for how closely things resemble one another. Do you have a lot of stuff in here that's mainly about the topic at hand? Is there anything in here that belongs somewhere else?
+- **Coupling**: The degree of direct knowledge that one element has of another is called coupling.
+- **Cohesion**: Within a module, this measures how closely connected components are. It's a metric for how closely things resemble one another. Do you have a lot of stuff in here that's mainly about the topic at hand? Is there anything in here that belongs somewhere else?

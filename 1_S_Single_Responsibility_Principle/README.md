@@ -8,37 +8,41 @@
 Before:
 
 ```csharp
-public class UserService
-{
-    public async Task AddUser(User user)
-    {
-	    // Code to add a user to the Database
+class ReportGenerator {
+    public void generatePDFReport() {
+        // logic to generate a PDF report
     }
-    public async Task SendEmail(User user)
-    {
-	    // Code to send email to the user
-	  }
+
+    public void generateCSVReport() {
+        // logic to generate a CSV report
+    }
+
+    public void sendEmail() {
+        // logic to send an email
+    }
 }
 ```
 
 After:
 
 ```csharp
-public class UserService
-{
-    public async Task AddUser(User user)
-    {
-	    // Code to add a user to the Database
+class PDFReportGenerator {
+    public void generatePDFReport() {
+        // logic to generate a PDF report
     }
 }
 
-public class EmailService
-{
-    public async Task SendEmail(User user)
-    {
-	    // Code to send email to the user
-	  }
+class CSVReportGenerator {
+    public void generateCSVReport() {
+        // logic to generate a CSV report
+    }
+}
+
+class EmailSender {
+    public void sendEmail() {
+        // logic to send an email
+    }
 }
 ```
 
-**Explanation:** According to SRP, *one class should take one responsibility hence to overcome this problem we should write another class to save the report functionality. If you make any changes to the `UserService` class will not affect the `EmailService` class.*
+**Explanation:** By adhering to SRP, each class now has a single responsibility, making the code more maintainable and easier to extend.*

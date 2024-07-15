@@ -45,4 +45,4 @@ class EmailSender {
 }
 ```
 
-**Explanation:** By adhering to SRP, each class now has a single responsibility, making the code more maintainable and easier to extend.*
+**Explanation:** By adhering to SRP, each class now has a single responsibility, making the code more maintainable and easier to extend.

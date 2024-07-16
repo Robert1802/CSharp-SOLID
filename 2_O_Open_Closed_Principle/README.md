@@ -9,7 +9,7 @@
 
 ***Before:***
 
-```
+```csharp
 public class Rectangle
 {
     public double Width { get; set; }
@@ -29,7 +29,7 @@ This design may become problematic when adding new shapes. Modifying the `AreaC
 
 ***After:***
 
-```
+```csharp
 public interface IShape
 {
     double CalculateArea();

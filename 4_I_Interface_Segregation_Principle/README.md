@@ -1,4 +1,6 @@
-﻿> The Interface Segregation Principle states that a class should not be forced to implement interfaces it does not use. This principle encourages the creation of small, client-specific interfaces.
+﻿## I - ISP - Interface Segregation Principle
+
+> The Interface Segregation Principle states that a class should not be forced to implement interfaces it does not use. This principle encourages the creation of small, client-specific interfaces.
 > 
 
 **Key Idea:** A class should not be forced to implement interfaces it doesn’t use.

@@ -1,4 +1,4 @@
-﻿## O - Open Closed Principle
+﻿## O - OCP - Open Closed Principle
 
 > The Open/Closed Principle suggests that a class should be open for extension but closed for modification. This means you can add new features without altering existing code.
 > 

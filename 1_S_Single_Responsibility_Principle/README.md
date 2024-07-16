@@ -3,6 +3,10 @@
 > A class should have one and only one reason to change, meaning that a class should have only one job.
 > 
 
+**Key Idea**: A class should do only one thing, and it should do it well.
+
+**Real-Time Example**: Think of a chef who only focuses on cooking, not managing the restaurant or delivering food.
+
 **Key Idea:** A class should do only one thing, and it should do it well.
 
 Before:

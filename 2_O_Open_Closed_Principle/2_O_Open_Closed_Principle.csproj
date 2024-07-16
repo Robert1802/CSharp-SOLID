@@ -8,9 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="O_Wrong\" />
-    <Folder Include="O_Right\" />
-  </ItemGroup>
-
 </Project>
